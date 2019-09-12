@@ -202,7 +202,7 @@
     "status": "Gebruikt om de workflow te beheren",
     "string": "Tekst, nummers, spaties of symbolen.",
     "time": "Tijd, bijv.: 14:09:22",
-    "translation": "Specific to translation interfaces, this o2m stores multi-lingual content",
+    "translation": "Specifiek voor vertaling interfaces, dit o2m veld slaat de vertaalde content op",
     "user_created": "Gebruiker die het item heeft aangemaakt.",
     "user_updated": "Gebruiker die het item heeft geüpdatet.",
     "uuid": "Universally Unique Identifier"
