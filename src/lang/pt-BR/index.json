@@ -257,7 +257,7 @@
   "m2o": "Muitos-para-um (N para 1)",
   "manage": "Gerenciar",
   "manage_started": "Gerenciamento de {collection} iniciado",
-  "manage_stopped": "Stopped Managing {collection}",
+  "manage_stopped": "Gerenciamento de {collection} interrompido",
   "max_one_primary_key": "Você pode ter apenas uma chave primária por coleção",
   "max_size": "Tamanho máximo: {size}",
   "mixed": "Misturado",
