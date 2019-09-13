@@ -1,3 +1,4 @@
+const webpack = require("webpack");
 module.exports = {
   lintOnSave: false,
   publicPath: process.env.NODE_ENV === "production" ? "" : "/",
@@ -10,5 +11,13 @@ module.exports = {
     if (process.env.NODE_ENV === "development") {
       config.output.filename("[name].[hash].js").end();
     }
+  },
+  configureWebpack: {
+    plugins: [
+      new webpack.ProvidePlugin({
+        "window.Quill": "quill/dist/quill.js",
+        Quill: "quill/dist/quill.js"
+      })
+    ]
   }
 };

@@ -29,8 +29,10 @@ import Quill from "quill";
 import "quill/dist/quill.core.css";
 import "./quill.theme.css";
 import { ImageUpload } from "quill-image-upload";
+import ImageResize from "quill-image-resize-module";
 
 Quill.register("modules/imageUpload", ImageUpload);
+Quill.register("modules/imageResize", ImageResize);
 
 import mixin from "@directus/extension-toolkit/mixins/interface";
 
@@ -116,7 +118,8 @@ export default {
               });
               next(file); // go back to component and send to the server
             }
-          }
+          },
+          imageResize: true
         }
       });
 
